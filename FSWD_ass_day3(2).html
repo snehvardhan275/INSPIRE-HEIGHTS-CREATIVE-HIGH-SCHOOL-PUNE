@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSWD_ass_day3(2)</title>
+    <style>
+        #form{
+            background-color: aquamarine;
+            width: 600px;
+            border-radius: 10px;
+            border-color: black;
+            border-style: outset;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>INSPIRE  HEIGHTS CREATIVE HIGH SCHOOL ,PUNE</h1>
+        <hr>
+        <h4><i>Inspire Heights Creative School was established in 2016 in the heart of Pune, Maharashtra, with a mission to foster creativity, innovation, and collaboration among young learners. Nestled in a serene 5-acre campus in the Baner area, the school offers a perfect blend of nature and modern infrastructure, encouraging students to explore and grow holistically.</i></h4>
+        <hr>
+    </div >
+     
+      <h3>Admisson Form</h3>
+      <div id="form">
+       
+        <label >STUDENT NAME</label>
+        <input  id="SFN"type="text"    placeholder="First Name">
+       
+       
+        <input id="SMN" type="text"    placeholder="Mid Name">
+        <input id="SLN" type="text"    placeholder="Last Name">
+        <br>
+        <br>
+        <label >FATHER NAME</label>
+        <input id="FFN" type="text"    placeholder="First Name">
+        <input id="FMN" type="text"    placeholder="Mid Name">
+        <input id="FLN" type="text"    placeholder="Last Name">
+        <br>
+        <br>
+
+        <label >MOTHER NAME</label>
+        <input id="MFN" type="text"    placeholder="First Name">
+        <input id="MMN" type="text"    placeholder="Mid Name">
+        <input id="MLN" type="text"    placeholder="Last Name">
+        <br>
+        <br>
+       
+        
+        <label >DOB</label>
+        <input  id="DOB" type="date"    placeholder=" Date of birth">
+       <br>
+       <br>
+        <label >GENDER</label>
+         <br>
+         <label  >
+        <input id="GEN1" type="checkbox" >Male</label>
+
+        <label >
+        <input id="GEN2" type="checkbox">Female</label>
+
+
+        <label >
+        <input id="GEN3" type="checkbox">other</label>
+
+
+        <br>
+        <br>
+        <label >Standard</label>
+        <input id="STD" type="number" placeholder="Current standard">
+        <br>
+        <br>
+        <label >height</label>
+        <input id="HIG" type="number" placeholder="Height in cm">
+        <br>
+        <br>
+        <label >Aadhar number</label>
+        <input id="ADHN" type="Text" placeholder="Aadhar number">
+        <br>
+        <br>
+        
+        <label >Aadhar Photo copy</label>
+        <input id="ADHP" type="file" placeholder="Photo file">
+
+        <br>
+        <br>
+        <label >Student Photo</label>
+        <input id="SPHO" type="file" placeholder="Photo">
+        <br>
+        <br>
+        <label >Phone number</label>
+        <input id="PPNO" type="text" placeholder="Phone number">
+        
+    <br>
+    <br>
+    <label >Complete Home Ad/s</label>
+    <textarea id="ADDS" name="Submit text" row="5" cols="5"></textarea>
+        
+      <br>
+      <br>
+    <label > Parent Email</label>
+    <input id="PEML"type="email" placeholder="Parent Email">
+    <br>
+    <br>
+    <div>
+        <label>stage</label>
+        <select id="STAGE">
+            <option>nursery</option>
+            <option>Lower KG</option>
+            <option>Upper KG</option>
+            <option>primary</option>
+            <option>High school</option>
+            <option>Jr.college</option>
+           
+
+        </select>
+    </div>
+    <br>
+    <br>
+
+    <button onclick="submiting_time()">Submit</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<button id="ckeck_data" onclick="goToNewPage()">Check Data</button>
+
+    
+    <br>
+    <br>
+    
+              </div>
+
+              <script src="Data_ex_form.js"></script>
+</body>
+</html>
